@@ -1,0 +1,113 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #434343;
+}
+
+.row + .row {
+    margin-top: 12px;
+}
+
+/* Fonts */
+.font-light {
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+/* Navigation */
+.navbar-grey {
+    background-color: #262c2d;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-brand {
+    width: 5%;
+}
+
+.btn-blue-outline {
+    color: #0f87c9;
+    border: 2px solid #0f87c9;
+    border-radius: 1.5rem;
+}
+
+.btn-blue-outline:hover,
+.btn-blue-outline:active,
+.btn-blue-outline:focus {
+    background-color: #0f87c9;
+    color: #fff;
+}
+
+.btn-blue {
+    background-color: #0f87c9;
+    color: #fff;
+    border: 2px solid #0f87c9;
+    border-radius: 1.5rem;
+}
+
+.btn-blue:hover,
+.btn-blue:active,
+.btn-blue:focus {
+    color: #0f87c9;
+    background-color: #fff;
+}
+
+a {
+    color: #0f87c9;
+}
+
+.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Homepage */
+.home-header {
+    background-color: #262c2d;
+    color: #fff; 
+}
+
+.home-header h1 {
+    font-size: 3.5rem;
+}
+
+.home-header .font-light {
+    color: #b4b4b4;
+}
+
+/* Projects */
+.project-img {
+    background-color: #eaeaea;
+    padding: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #262c2d;
+    color: #b4b4b4;
+}
+
+.footer-brand {
+    font-size: 1.4rem;
+}
+
+.footer-brand a {
+    color: #b4b4b4;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+ h3 {
+     font-size: 1.2rem;
+ }
+}
